@@ -19,7 +19,6 @@ namespace ConsoleApp3
             this.lastname = lastname;
             this.registrationDate = registrationDate;
             this.from = from;
-
         }
 
         public Data () {
@@ -41,8 +40,6 @@ namespace ConsoleApp3
             this.Surname = lastname;
             this.RegisterDate = registrationDate;
             this.from = from;
-
-
         }
         public Participant () {
 
