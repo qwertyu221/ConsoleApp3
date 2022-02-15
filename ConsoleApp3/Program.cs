@@ -14,9 +14,7 @@ namespace ConsoleApp3
 
             //Participant data;
 
-            //List<Participant> users = new List<Participant>();
-
-            FileReader.Read();
+            List <Data> users = FileReader.Read();
 
             
            
