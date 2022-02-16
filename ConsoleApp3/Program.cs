@@ -16,6 +16,9 @@ namespace ConsoleApp3
 
             List <Data> users = FileReader.Read();
 
+            users = Sort.Sorted(users);
+            Controller.Work(users);
+
             
            
         }
